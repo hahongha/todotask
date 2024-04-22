@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="image_resource_tag" type="id"/>
+    <item name="noti_btn_close" type="id" />
+    <item name="material_btn_tag" type="id"/>
+    <item name="id_task" type="id"/>
+    <item name="id_resource_tag" type="id"/>
+</resources>

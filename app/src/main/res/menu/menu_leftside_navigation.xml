@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/side_nav_upgrade"
+            android:title="Upgrade to Premium"
+            android:icon="@drawable/ic_nav_crown"
+            />
+
+        <item
+            android:id="@+id/side_nav_find"
+            android:title="Find task"
+            android:icon="@drawable/ic_nav_find"
+
+            />
+        <item
+            android:id="@+id/side_nav_bin"
+            android:title="Bin"
+            android:icon="@drawable/ic_nav_bin"
+            />
+        <item
+            android:id="@+id/side_nav_rate"
+            android:title="Rate us"
+            android:icon="@drawable/ic_nav_rate"
+
+            />
+        <item
+            android:id="@+id/side_nav_help"
+            android:title="Help"
+            android:icon="@drawable/ic_nav_help"
+
+            />
+
+        <item
+            android:id="@+id/side_nav_setting"
+            android:title="Setting"
+            android:icon="@drawable/ic_nav_setting"
+
+            />
+    </group>
+
+
+</menu>

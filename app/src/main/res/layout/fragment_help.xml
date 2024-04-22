@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HelpFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/heading1TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Làm thế nào để tạo một ghi chú mới trong ứng dụng?"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/button1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/button1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/button1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_help1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Để tạo một ghi chú mới trong ứng dụng, bạn có thể nhấn vào nút Tạo ghi chú hoặc biểu tượng tương tự."
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/heading1TV" />
+
+
+        <TextView
+            android:id="@+id/heading2TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Có thể sắp xếp ghi chú theo thứ tự hoặc danh mục \nkhông?"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/button2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/button2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/button2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_help1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text1" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Phụ thuộc vào tính năng của ứng dụng, bạn có thể sắp xếp ghi chú theo thứ tự hoặc theo danh mục. Có thể có các tùy chọn như sắp xếp theo thời gian, tiêu đề, màu sắc, hoặc ưu tiên."
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/heading2TV" />
+
+        <TextView
+            android:id="@+id/heading3TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Làm thế nào để tìm kiếm một ghi chú cụ thể trong \nứng dụng?"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/button3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/button3"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/button3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_help1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text2" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Để tìm kiếm một ghi chú cụ thể, bạn có thể sử dụng chức năng tìm kiếm trong ứng dụng. Có thể tìm kiếm theo từ khóa, tiêu đề hoặc thẻ liên quan."
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/heading3TV" />
+        <TextView
+            android:id="@+id/heading4TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Ứng dụng có hỗ trợ gắn kết tệp tin, hình ảnh hoặc \nâm thanh vào ghi chú không?"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/button4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/button4"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/button4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_help1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text3" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Ứng dụng có thể hỗ trợ gắn kết tệp tin, hình ảnh hoặc âm thanh vào ghi chú. Bạn có thể tìm biểu tượng Gắn kết hoặc Thêm tệp tin để thêm các tệp tin đính kèm vào ghi chú của mình."
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/heading4TV" />
+
+        <TextView
+            android:id="@+id/heading5TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Làm thế nào để xóa một ghi chú trong ứng dụng?"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/button5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/button5"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/button5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_help1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text4" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Để xóa một ghi chú trong ứng dụng, bạn có thể chọn ghi chú cần xóa và sau đó nhấn vào biểu tượng Xóa hoặc Thùng rác."
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/heading5TV" />
+
+        <TextView
+            android:id="@+id/heading6TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Có tính năng nhắc nhở hay lịch trình trong ứng dụng \nkhông?"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/button6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/button6"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/button6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_help1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text5" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Một số ứng dụng ghi chú có tính năng nhắc nhở hoặc lịch trình. Bạn có thể đặt nhắc nhở cho ghi chú hoặc lên kế hoạch theo ngày và giờ cụ thể."
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/heading6TV" />
+
+        <TextView
+            android:id="@+id/heading7TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Làm thế nào để sao lưu và phục hồi dữ liệu ghi chú?"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/button7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/button7"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/button7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_help1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text6" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Để sao lưu và phục hồi dữ liệu ghi chú, bạn có thể tìm trong cài đặt của ứng dụng. Có thể có tùy chọn sao lưu đám mây hoặc xuất ra tệp tin để lưu trữ dữ liệu."
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/heading7TV" />
+
+        <TextView
+            android:id="@+id/heading8TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Làm thế nào để tạo danh sách công việc hoặc \ndanh sách kiểm tra trong ghi chú?"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/button8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/button8"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/button8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_help1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text7" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Để tạo danh sách công việc hoặc danh sách kiểm tra trong ghi chú, bạn có thể sử dụng tính năng danh sách hoặc thẻ tương ứng trong ứng dụng. Bạn có thể thêm, xóa hoặc đánh dấu các mục trong danh sách của mình."
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/heading8TV" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ToDoTask" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/lavender</item>
+        <item name="colorPrimaryVariant">@color/lavender</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.ToDoTask" parent="Base.Theme.ToDoTask" />
+    <style name="TransparentButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="RoundedShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item> <!-- Adjust the percentage as per your preference for roundness -->
+    </style>
+
+    <style name="MyRatingBar" parent="Widget.AppCompat.RatingBar">
+
+        <item name="colorControlNormal">#4D000000</item>
+        <item name="colorControlActivated">@color/dialog_color_1</item>
+    </style>
+    <style name="ScreenBackground"><item name="android:background">@color/white</item></style>
+    <style name="CardBackground"><item name="android:background">#F8F6F6</item></style>
+    <style name="TextColor"><item name="android:textColor">@color/black</item></style>
+</resources>

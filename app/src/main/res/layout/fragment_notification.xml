@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".NotificationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to \nNotification Activity"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:textColor="@color/lavender"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        >-->
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            style="@style/TransparentButton"-->
+<!--            android:tint="@android:color/transparent"-->
+<!--            android:id="@+id/notification_fab_close"-->
+<!--            android:src="@drawable/ic_close"-->
+<!--            android:layout_margin="10dp"-->
+<!--            >-->
+<!--        </com.google.android.material.floatingactionbutton.FloatingActionButton>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Notification"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginStart="20dp">-->
+<!--        </TextView>-->
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:id="@+id/notification_btn_tick"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/ic_add_tick"-->
+<!--            android:tint="@android:color/transparent"-->
+<!--            style="@style/TransparentButton"-->
+<!--            android:layout_marginStart="150dp"-->
+<!--            >-->
+
+<!--        </com.google.android.material.floatingactionbutton.FloatingActionButton>-->
+<!--    </LinearLayout>-->
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/when_notification"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:paddingRight="20dp"-->
+<!--        android:layout_marginTop="100dp">-->
+
+<!--        <AutoCompleteTextView-->
+<!--            android:id="@+id/add_tv_when"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:hint="When"-->
+<!--            android:inputType="none">-->
+
+<!--        </AutoCompleteTextView>-->
+<!--        -->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/layout_vibrate"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_below="@id/when_notification">-->
+<!--        <CheckBox-->
+<!--            android:id="@+id/checkbox_vibrate"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Vibrate"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:onClick="onCheckboxClicked"/>-->
+
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_below="@id/layout_vibrate">-->
+<!--        <CheckBox-->
+<!--            android:id="@+id/checkbox_sound"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Play sound"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:onClick="onPlaySoundCheckboxClicked"/>-->
+<!--        <ImageButton-->
+<!--            android:id="@+id/ringtoneselect_btn"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:onClick="onRingtoneButtonClicked"/>-->
+<!--    </LinearLayout>-->
+
+
+</RelativeLayout>
